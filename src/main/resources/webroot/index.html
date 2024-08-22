@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Web Server</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Bienvenido a mi Servidor Web</h1>
+    <button id="fetchDataBtn">Obtener Datos</button>
+    <div id="result"></div>
+    <img src="img/example.png" alt="Ejemplo Imagen" />
+
+    <h2>Enviar Datos (POST Request)</h2>
+    <form id="dataForm">
+      <label for="dataInput">Ingresa tu nombre:</label>
+      <input type="text" id="dataInput" name="dataInput"/>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <pre id="postResult"></pre>
+
+    <script src="app.js"></script>
+  </body>
+</html>
